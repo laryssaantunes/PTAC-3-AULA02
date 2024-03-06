@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from '../components/Map';
 
 const Localizacao = ()=> {
     return(
@@ -9,12 +10,7 @@ const Localizacao = ()=> {
             <main>
             <Map/>
             </main>
-            <footer>
-                <p>Mapa</p>
-            </footer>
         </div>
     );
 }
-
-
 export default Localizacao;
