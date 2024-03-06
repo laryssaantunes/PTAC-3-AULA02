@@ -1,10 +1,11 @@
-import Link from 'next/link'
+import 'menu.not-NotFound.css';
 
 export default function NotFound() {
     return (
         <div>
-            <h2>Página não encontrada</h2>
-            <Link href= "/"> retornar para Home</Link>
+            <h2 className={Styles.erro}>Página não encontrada</h2>
+            <a href= "/"> retornar para Home</a>
+
         </div>
     )
 }
